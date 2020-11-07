@@ -1,0 +1,48 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px;
+}
+
+.instagram {
+  background: url(../../Assets/instagram.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cinque {
+  background: url(../../Assets/cwd.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.neon {
+  background: url(../../Assets/neon.jpg) no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.breakfast {
+  background: url(../../Assets/breakfast.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section-head {
+  color: white;
+  float: right;
+  text-shadow: 1px 1px 1px black;
+  margin: 20px;
+}
+
+.section-head:hover {
+  transform: scale(1.1);
+}
