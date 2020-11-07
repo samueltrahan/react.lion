@@ -1,0 +1,36 @@
+.nav-bar {
+  height: 150px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lion-logo {
+  width: 140px;
+}
+
+.links {  
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 25px;
+  margin: 20px;
+  color: black;
+}
+
+.nav-links:hover {
+  color: orange;
+  transition: color .7s;
+}
