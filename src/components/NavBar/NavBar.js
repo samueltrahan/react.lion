@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="logo">
-      <img className="lion-logo" alt="" src={Pic01}></img>
+      <a href="/"><img className="lion-logo" alt="" src={Pic01}></img></a>
       </div>
       <div className="links">
         <a className="nav-links" href="/projects">Projects</a>

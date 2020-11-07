@@ -1,0 +1,20 @@
+.banner-section {
+  background: url(../../Assets/about-page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+
+.banner-about {
+  float: right;
+  margin: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.banner-about:hover {
+  transform: scale(1.1);
+}
