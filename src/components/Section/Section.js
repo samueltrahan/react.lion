@@ -5,23 +5,23 @@ import './Section.css';
 export default function Section() {
   return (
     <div className="section">
-      <Link to="/instagram">
-      <section className="instagram">
+      <Link className="instagram" to="/instagram">
+      <section >
         <h1 className="section-head">Instagram</h1>
       </section>
       </Link>
-      <Link target="_blank" to="https://www.cinquewd.com">
-      <section className="cinque">
+      <Link className="cinque" target="_blank" to="https://www.cinquewd.com">
+      <section >
         <h1 className="section-head">CWD</h1>
       </section>
       </Link>
-      <Link to="/neon">
-      <section className="neon">
+      <Link className="neon" to="/neon">
+      <section >
         <h1 className="section-head">Extreme Neon</h1>
       </section>
       </Link>
-      <Link to="/breakfast">
-      <section className="breakfast">
+      <Link className="breakfast" to="/breakfast">
+      <section >
         <h1 className="section-head">Breakfast</h1>
       </section>
       </Link>
