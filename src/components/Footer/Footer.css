@@ -1,0 +1,9 @@
+.footer-links {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links:hover {
+  color: orange;
+  transition: color .7s;
+}
